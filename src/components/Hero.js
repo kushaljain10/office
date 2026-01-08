@@ -187,7 +187,7 @@ const Hero = () => {
 
           {/* CTA Button */}
           <motion.a
-            href="https://pump.fun"
+            href="https://x.com/i/communities/2009307983810068858"
             target="_blank"
             rel="noopener noreferrer"
             className="btn"
