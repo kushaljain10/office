@@ -23,7 +23,7 @@
   background: white;
   border: 3px solid #334155;
   box-shadow: 6px 6px 0 #334155;
-  padding: 2rem;
+  padding: 0.5rem;
   margin: 1rem;
   transition: transform 0.2s ease;
 }
@@ -85,16 +85,17 @@
   .section {
     padding: 2rem 1rem;
   }
-  
+
   .section-title {
     font-size: 2rem;
   }
-  
+
   .masonry {
     column-count: 1;
   }
-  
-  .grid-2, .grid-3 {
+
+  .grid-2,
+  .grid-3 {
     grid-template-columns: 1fr;
   }
 }
