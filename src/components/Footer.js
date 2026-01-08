@@ -21,6 +21,7 @@ const Footer = () => {
         }}
       >
         {/* Social Links */}
+        {/* 
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -31,7 +32,7 @@ const Footer = () => {
             marginBottom: "3rem",
           }}
         >
-          {/* <h3
+          <h3
             style={{
               fontSize: "1.5rem",
               marginBottom: "2rem",
@@ -43,7 +44,7 @@ const Footer = () => {
             Connect with the Branch
           </h3> */}
 
-          {/* <div
+        {/* <div
             style={{
               display: "flex",
               justifyContent: "center",
@@ -86,8 +87,8 @@ const Footer = () => {
                 </motion.a>
               );
             })}
-          </div> */}
-        </motion.div>
+          </div> 
+        </motion.div> */}
 
         {/* Disclaimer */}
         <motion.div

@@ -76,7 +76,7 @@ const MemeGallery = () => {
     <section
       id="memes"
       style={{
-        padding: "4rem 2rem",
+        padding: "4rem 2rem 4rem 0rem",
         backgroundColor: "#f9fafb",
         minHeight: "100vh",
       }}
@@ -119,7 +119,6 @@ const MemeGallery = () => {
           transform: scale(1.01);
         }
       `}</style>
-      padding: '4rem 2rem', backgroundColor: '#f9fafb', minHeight: '100vh' }}>
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
