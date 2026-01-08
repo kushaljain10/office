@@ -4,7 +4,7 @@ import { Copy, Check } from "lucide-react";
 
 const Hero = () => {
   const [copied, setCopied] = useState(false);
-  const contractAddress = "8xOFFICExxxxxxxxxxxxxxxxxxxxxsol";
+  const contractAddress = "2kRq6VbC9QhZxaSMYi5yuAGXZ4QPVdH2VXGkXSYWpump";
 
   const copyToClipboard = async () => {
     try {
